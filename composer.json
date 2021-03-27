@@ -1,0 +1,16 @@
+{
+  "description": "This Package provided functionality for adding a hash key to resource uris to avoid caching changed resources",
+  "name": "cron/neos-hashed-assets",
+  "type": "neos-package",
+  "license": "proprietary",
+  "require": {
+    "neos/neos": "*",
+    "neos/flow": "*",
+    "neos/fusion": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CRON\\NeosHashedAssets\\": "Classes"
+    }
+  }
+}
