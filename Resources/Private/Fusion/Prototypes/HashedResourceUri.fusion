@@ -1,20 +1,14 @@
 prototype(CRON.NeosHashedAssets:HashedResourceUri) < prototype(Neos.Fusion:Component) {
 
     path = null
-    package = null
-    resource = null
-    localize = true
 
     @cache {
         mode = 'cached'
         entryIdentifier {
             1 = ${props.path}
-            2 = ${props.package}
-            3 = ${props.resource}
-            4 = ${props.localize}
         }
         entryTags {
-
+            1 = ${props.path}
         }
     }
 
