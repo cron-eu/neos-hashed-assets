@@ -9,6 +9,7 @@ prototype(CRON.NeosHashedAssets:HashedResourceUri) < prototype(Neos.Fusion:Compo
         }
         entryTags {
             1 = ${props.path}
+            2 = 'HashedResourceUri'
         }
     }
 
